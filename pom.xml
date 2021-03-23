@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.qainfotech.tap</groupId>
-  <artifactId>jira-zephyr-executor</artifactId>
+  <artifactId>jira-xray-executor</artifactId>
   <version>1.0.0-SNAPSHOT</version>
 
-  <name>jira-zephyr-executor</name>
+  <name>jira-xray-executor</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -81,7 +81,7 @@
           </execution>
         </executions>
         <configuration>
-          <mainClass>com.qainfotech.tap.JiraZephyrExecutor</mainClass>
+          <mainClass>com.qainfotech.tap.JiraXrayExecutor</mainClass>
           <classpathScope>test</classpathScope>
         </configuration>
       </plugin>
