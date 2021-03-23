@@ -1,4 +1,4 @@
-# jira-zephyr-executor.java
+# jira-xray-executor.java
 
 ### SETUP
 1. Download jar file to location [PROJECT-ROOT]/vendor/  
