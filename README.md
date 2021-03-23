@@ -8,7 +8,7 @@
     ```XML
     <dependency>
         <groupId>com.qainfotech.tap</groupId>
-        <artifactId>jira-zephyr-executor</artifactId>
+        <artifactId>jira-xray-executor</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </dependency>
     <dependency>
@@ -34,13 +34,13 @@
         <version>1.6.0</version>
         <executions>
           <execution>
-            <id>JIRA Zephyr Test Execution</id>
+            <id>JIRA Xray Test Execution</id>
             <phase>verify</phase>
             <goals>
               <goal>java</goal>
             </goals>
             <configuration>
-              <mainClass>com.qainfotech.tap.JiraZephyrExecutor</mainClass>
+              <mainClass>com.qainfotech.tap.JiraXrayExecutor</mainClass>
               <classpathScope>test</classpathScope>
               <cleanupDaemonThreads>false</cleanupDaemonThreads>
             </configuration>
@@ -51,8 +51,8 @@
 
 4. create jiraConfig.properties in project root with following parameters:
     ```JAVA
-    zephyr.accessKey=[Your Account's Zephyr Access Key]
-    zephyr.secretKey=[Your Account's Zephyr Secret Key]
+    xray.accessKey=[Your Account's Xray Access Key]
+    xray.secretKey=[Your Account's Xray Secret Key]
     jira.accountId=[Your Account ID]
     jira.userId=[Your Account's Jira username]
     jira.apiKey=[Your Account's Jira api key]
